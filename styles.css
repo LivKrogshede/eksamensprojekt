@@ -18,7 +18,7 @@ body {
   top: 0;
   transition: 0.3s;
   z-index: 3;
-  border-bottom: solid 5px #129a55;
+  border-bottom: solid 2px #129a55;
 }
 .logo {
   max-width: 220px;
@@ -37,7 +37,7 @@ body {
   width: 70%;
 }
 .navigation a {
-  color: #4e5359;
+  color: #707070;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   letter-spacing: 1px;
@@ -68,482 +68,36 @@ body {
 }
 .slideshow {
   display: block;
-  margin-left: 15vw;
-  margin-top: 0vh;
-  max-width: 65%;
+  margin: auto;
+  max-width: 40%;
   max-height: 40%;
   position: relative;
   text-align: center;
 }
-.galleriom {
-  display: flex;
-  margin-left: 13vw;
-  margin-top: 3vh;
-  padding: 1px;
-  max-width: 400px;
-  max-height: 300px;
-  position: relative;
-  text-align: center;
+.subnavtemp {
+  list-style-type: none;
+  margin-top: 3%;
+  overflow: hidden;
 }
-.madskole3 {
-  max-width: 300px;
-  max-height: 300px;
+.lisubnavtemp {
+  float: right;
 }
-.galleriom > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.formalhead {
-  color: #4e5359;
-  margin-top: 10vh;
-  margin-left: 14vw;
-  margin-right: 9vw;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.formaltext {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 9vw;
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.formalbold {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 0vw;
-  margin-right: 9vw;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.formal1 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 9vw;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.formallist {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 15vw;
-  margin-right: 9vw;
-  font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.tapamadskole {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
-  font-size: 50px;
-  text-shadow: 2px 4px #129a55;
-}
-.gallerihvad {
-  display: flex;
-  margin-left: 18vw;
-  margin-top: 3vh;
-  padding: 1px;
-  max-width: 300px;
-  max-height: 400px;
-  position: relative;
-  text-align: center;
-}
-.gallerihvad > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.hvadhead {
-  color: #4e5359;
-  margin-top: 12vh;
-  margin-left: 19vw;
-  margin-right: 9vw;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvad1 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 19vw;
-  margin-right: 9vw;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvad2 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 19vw;
-  margin-right: 9vw;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvad3 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 19vw;
-  margin-right: 9vw;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvad4 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-bottom: 2vh;
-  margin-left: 19vw;
-  margin-right: 9vw;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.gallerihvad1 {
-  display: flex;
-  margin-left: 18vw;
-  margin-top: 2vh;
-  padding: 1px;
-  max-width: 300px;
-  max-height: 400px;
-  position: relative;
-  text-align: center;
-}
-.gallerihvad1 > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.gallerihvordan {
-  display: flex;
-  margin-left: 13vw;
-  margin-top: 2vh;
-  padding: 1px;
-  max-width: 300px;
-  max-height: 400px;
-  position: relative;
-  text-align: center;
-}
-.gallerihvordan > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.gallerihvordan1 {
-  display: flex;
-  margin-left: 13vw;
-  margin-top: 4vh;
-  padding: 1px;
-  max-width: 300px;
-  max-height: 400px;
-  position: relative;
-  text-align: center;
-}
-.gallerihvordan1 > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.gallerihvordan2 {
-  display: flex;
-  margin-left: 13vw;
-  margin-top: 4vh;
-  padding: 1px;
-  max-width: 300px;
-  max-height: 400px;
-  position: relative;
-  text-align: center;
-}
-.gallerihvordan2 > img {
-  background-color: #eeeeee;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
-.hvordanhead {
-  color: #4e5359;
-  margin-top: 10vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvordan {
-  color: #4e5359;
-  margin-top: 5vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvordan1 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvordan2 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 13vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvordan3 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-left: 14vw;
-  margin-right: 13vw;
-  margin-bottom: 3vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvorhead {
-  color: #4e5359;
-  margin-top: 10vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvortext1 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvortext2 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvortext3 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.hvortext4 {
-  color: #4e5359;
-  margin-top: 3vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.kom {
+.lisubnavtemp a {
   display: block;
-  margin-left: 13vw;
-  margin-top: 4vh;
-  padding: 1px;
-  max-width: 1000px;
-  max-height: 600px;
-  position: relative;
-  text-align: center;
-}
-.frivillighead {
-  color: #4e5359;
-  margin-top: 10vh;
-  margin-left: 14vw;
-  margin-right: 5vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.frivillig1 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-left: 14.2vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.frivilligvideo {
-  margin-top: 5vh;
-  margin-left: 20vw;
-  width: 70%;
-}
-.instructor1 {
-  color: #4e5359;
-  margin-top: 10vh;
-  margin-left: 14.2vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.instructor2 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-left: 14.2vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.instructor3 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-left: 14.2vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.instructor4 {
-  color: #4e5359;
-  margin-top: 1vh;
-  margin-left: 14.2vw;
-  margin-bottom: 2vh;
-  text-align: justify;
-  text-justify: auto;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.sidenav {
-  height: 100%;
-  width: 10%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #eeeeee;
-  overflow-x: hidden;
-  padding-top: 10vh;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 12px;
-  margin-top: 3vh;
-  color: #4e5359;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #129a55;
-}
-.sidenav a:active {
-  background-color: purple;
-}
-.sidenavom {
-  height: 100%;
-  width: 10%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #eeeeee;
-  overflow-x: hidden;
-  padding-top: 10vh;
-}
-
-.sidenavom a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  margin-top: 3vh;
-  color: #4e5359;
-  display: block;
-}
-
-.sidenavom a:hover {
-  color: #129a55;
-}
-.sidenavom a:active {
-  background-color: purple;
-}
-.sidenavtilmeld {
-  height: 100%;
-  width: 10%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #eeeeee;
-  overflow-x: hidden;
-  padding-top: 10vh;
-}
-
-.sidenavtilmeld a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  margin-top: 3vh;
-  color: #4e5359;
-  display: block;
-}
-
-.sidenavtilmeld a:hover {
-  color: #129a55;
-}
-.sidenavom a:active {
-  background-color: purple;
+  padding: 8px;
+  color: #707070;
+  background-color: #ffffff;
 }
 @media screen and (max-width: 992px) {
   .openbtn {
     display: block;
-    color: #129a55;
+    color: #313331;
     font-weight: 900;
-    padding-top: 1.5vh;
+    padding-top: 1%;
   }
   .logomob {
     display: block;
+    width: 10%;
   }
   .navigation {
     display: none;
@@ -558,11 +112,10 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(11, 51, 31, 0.7);
+    background-color: #313331;
     overflow-y: hidden;
     transition: 0.5s;
   }
-
   .overlay-content {
     position: relative;
     top: 25%;
@@ -570,7 +123,6 @@ body {
     text-align: center;
     margin-top: 30px;
   }
-
   .overlay a {
     font-weight: bold;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif,
@@ -578,61 +130,14 @@ body {
     padding: 8px;
     text-decoration: none;
     font-size: x-large;
-    color: #f8f9fa;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
   }
-  .sidenav {
-    height: 100%;
-    width: 5%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eeeeee;
-    overflow-x: hidden;
-    padding-top: 10vh;
-  }
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 8px;
-    margin-top: 3vh;
-    color: #4e5359;
-    display: block;
-  }
-  .frivillighead {
-    color: #4e5359;
-    margin-top: 10vh;
-    margin-left: 16vw;
-    margin-right: 5vw;
-    margin-bottom: 2vh;
-    text-align: justify;
-    text-justify: auto;
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .frivillig1 {
-    color: #4e5359;
-    margin-top: 1vh;
-    margin-left: 16vw;
-    margin-bottom: 2vh;
-    margin-right: 20vw;
-    text-align: justify;
-    text-justify: auto;
-    font-size: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .frivilligvideo {
-    margin-top: 5vh;
-    margin-left: 16vw;
-    width: 500px;
-  }
   .overlay a:hover,
   .overlay a:focus {
-    color: #f1f1f1;
+    color: #ffffff;
   }
-
   .overlay .closebtn {
     position: absolute;
     top: 20px;
@@ -642,112 +147,35 @@ body {
   .mobile {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding-left: 3vh;
-    border-bottom: 5px solid #129a55;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    border-bottom: 2px solid #129a55;
   }
   .slideshow {
     display: block;
-    margin-left: 12vw;
-    margin-top: 0vh;
-    max-width: 80%;
-    max-height: 70%;
+    margin-left: 12%;
+    margin-top: 30%;
+    max-width: 75%;
+    max-height: 75%;
     position: relative;
     text-align: center;
   }
-  .tapamadskole {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    font-size: 50px;
-    text-shadow: 2px 4px #129a55;
-  }
-  .formal {
-    color: #4e5359;
-    margin-left: 20vw;
-  }
-  .sidenav {
-    height: 100%;
-    width: 120px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eeeeee;
-    overflow-x: hidden;
-    margin-top: 18.7vh;
-    padding-top: 10vh;
+  .subnavtemp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
 
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: 3vh;
-    color: #4e5359;
+  .lisubnavtemp {
+    float: left;
+  }
+
+  .lisubnavtemp a {
     display: block;
-  }
-
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  .sidenav a:active {
-    background-color: purple;
-  }
-  .sidenavom {
-    height: 100%;
-    width: 120px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eeeeee;
-    overflow-x: hidden;
-    margin-top: 18.7vh;
-    padding-top: 10vh;
-  }
-  .sidenavom a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: 3vh;
-    color: #4e5359;
-    display: block;
-  }
-
-  .sidenavom a:hover {
-    color: #f1f1f1;
-  }
-  .sidenavom a:active {
-    background-color: purple;
-  }
-  .sidenavtilmeld {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #eeeeee;
-    overflow-x: hidden;
-    padding-top: 10vh;
-  }
-
-  .sidenavtilmeld a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: 3vh;
-    color: #4e5359;
-    display: block;
-  }
-
-  .sidenavtilmeld a:hover {
-    color: #f1f1f1;
-  }
-  .sidenavom a:active {
-    background-color: purple;
+    padding: 8px;
+    background-color: #dddddd;
   }
 }
 @media screen and (max-height: 450px) {
