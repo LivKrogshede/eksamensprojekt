@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/yxt0xcl.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="mobnavscript.js" defer></script>
+  <script src="filter.js"></script>
   <title>Effekt og temperatur</title>
 </head>
 <body>
@@ -32,9 +33,14 @@
         <li><a href="tilberedning.html">Tilberedning</a></li>
     </ul>
     <div class="submenutil">
-        <a href="bruning.html" class="bruning">Bruning</a>
-        <a href="stegning.html" class="stegning">Stegning</a>
-        <a href="kogning.html" class="kogning">Kogning</a>
+        <button class="bruning" onclick="selectSlide('brun')">Bruning</button>
+        <button class="stegning" onclick="selectSlide('steg')" >Stegning</button>
+        <button class="kogning" onclick="selectSlide('kog')">Kogning</button>
     </div>
+
+    <div class="slidecontainer" id="slideCon">
+
+    </div>
+  
 </body>
 </html>

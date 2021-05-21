@@ -7,6 +7,23 @@ body {
   font-family: quicksand, sans-serif;
   padding-top: 5vh;
 }
+
+.box {
+  display: none;
+  background-color: #4db848;
+  font-weight: bold;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 1px 5px;
+  padding: 64px 16px;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
 .nav-wrapper {
   display: flex;
   justify-content: space-around;
@@ -262,6 +279,13 @@ ul.breadcrumb li a:hover {
   width: 200px;
   cursor: pointer;
 }
+
+.slidecontainer {
+  display: flex;
+  margin-left: 10%;
+}
+
+
 @media screen and (max-width: 992px) {
   .openbtn {
     display: block;
@@ -269,6 +293,8 @@ ul.breadcrumb li a:hover {
     font-weight: 900;
     padding-top: 1%;
   }
+
+
   .logomob {
     display: block;
     width: 10%;
@@ -503,6 +529,14 @@ ul.breadcrumb li a:hover {
   }
 }
 @media screen and (max-height: 450px) {
+
+  .slidecontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
   .overlay {
     overflow-y: auto;
   }
