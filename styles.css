@@ -280,12 +280,6 @@ ul.breadcrumb li a:hover {
   cursor: pointer;
 }
 
-.slidecontainer {
-  display: flex;
-  margin-left: 10%;
-}
-
-
 @media screen and (max-width: 992px) {
   .openbtn {
     display: block;
@@ -293,6 +287,8 @@ ul.breadcrumb li a:hover {
     font-weight: 900;
     padding-top: 1%;
   }
+
+
 
 
   .logomob {
@@ -530,12 +526,6 @@ ul.breadcrumb li a:hover {
 }
 @media screen and (max-height: 450px) {
 
-  .slidecontainer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
 
   .overlay {
     overflow-y: auto;
