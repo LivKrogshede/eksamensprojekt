@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  text-decoration: none;
+}
+html {
+  height: 100%;
+  padding-top: 0;
+  width: 100%;
+  font-family: "Roboto Condensed", Sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto Condensed", Sans-serif;
+}
+
+/* HEADER + NAV */
+header {
+  background-color: #5cb71d;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+header .header-brand {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-content: center;
+}
+header nav {
+  margin: auto;
+}
+header nav ul {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 16px;
+}
+header nav ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+header nav ul li a:hover {
+  color: black;
+}
+.sektion1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0% 2%;
+  margin-top: 10%;
+  text-align: left;
+  align-self: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+.forsidelogobillede {
+  max-width: 95%;
+  max-height: 95%;
+  padding-left: 35%;
+}
+
+/*FARVER*/
+h3 {
+  margin-left: 115px;
+  margin-top: 25px;
+  font-size: 40px;
+}
+.sektion2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 2%;
+  text-align: left;
+  margin-left: 110px;
+  margin-right: 85px;
+}
+.farve1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #313331;
+  height: auto;
+  height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.infobox1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 350px;
+  background-color: #ffff;
+  padding: 2%;
+}
+.farve2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #5cb71d;
+  height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.infobox2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 350px;
+  background-color: #ffff;
+  padding: 2%;
+}
+.farve3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: #FFFFFF;
+  height: 25%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+.infobox3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  height: 350px;
+  background-color: #ffff;
+  padding: 2%;
+}
+.hexcolor {
+  line-height: 2.5;
+}
+
+/*IKONER*/
+table {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+td img {
+  width: 95px;
+  height: auto;
+  padding-left: 25px;
+}
+.menu {
+  background-color: #5cb71d;
+}
+.wrappercode-icons {
+  padding-bottom: 70px;
+}
+.kodeboks {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);
+  margin-left: 25%;
+  top: 200px;
+  width: 50%;
+  font-family: "Roboto Mono", monospace;
+  padding: 2%;
+}
+.boks {
+  padding-top: 1.5%;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #5cb71d;
+}
+
+/*TYPOGRAFI*/
+.sektion3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  margin-left: 115px;
+  margin-right: 90px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 5%);
+}
+.farven {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-color: #5cb71d;
+  height: auto;
+}
+.typo1 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.tekst1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
+}
+.tekst2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
+}
+.tekst3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 7px;
+}
+.typo2 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.tekst4 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+.tekst5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+.tekst6 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  font-size: 26px;
+  text-align: center;
+}
+.typo3 {
+  grid-column: 1/4;
+  grid-row: 4/5;
+}
+.tekst7 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  font-size: 20px;
+  text-align: center;
+}
+.tekst8 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size: 20px;
+  text-align: center;
+}
+.tekst9 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  font-size: 20px;
+  text-align: center;
+}
+.typo4 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+.tekst10 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.tekst11 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+.tekst12 {
+  grid-column: 3/4;
+  grid-row: 5/6;
+  font-size: 14px;
+  text-align: center;
+}
