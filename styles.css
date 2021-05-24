@@ -88,9 +88,10 @@ body {
 }
 .slideshow {
   display: block;
-  margin: auto;
-  max-width: 40%;
-  max-height: 40%;
+  margin-top: 10%;
+  margin-left: 40%;
+  max-width: 30%;
+  max-height: 30%;
   position: relative;
   text-align: center;
 }
@@ -120,11 +121,23 @@ ul.breadcrumb li a:hover {
 .submenutil {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 1px;
+  grid-gap: 5px;
   background-color: #ffffff;
   margin-left: 15%;
   margin-bottom: 40px;
   margin-top: 10%;
+}
+.slidecontainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
+.slidecontainer img {
+  width: 300px;
+  height: 300px;
 }
 .bruning {
   background-color: #4db848;
@@ -278,6 +291,7 @@ ul.breadcrumb li a:hover {
   height: 200px;
   width: 200px;
   cursor: pointer;
+  word-break: keep-all;
 }
 
 @media screen and (max-width: 992px) {
@@ -287,10 +301,6 @@ ul.breadcrumb li a:hover {
     font-weight: 900;
     padding-top: 1%;
   }
-
-
-
-
   .logomob {
     display: block;
     width: 10%;
@@ -354,6 +364,17 @@ ul.breadcrumb li a:hover {
     max-height: 75%;
     position: relative;
     text-align: center;
+  }
+  .slidecontainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 5px;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+  .slidecontainer img {
+    width: 250px;
+    height: 250px;
   }
   .subnavtemp {
     list-style-type: none;
@@ -525,8 +546,6 @@ ul.breadcrumb li a:hover {
   }
 }
 @media screen and (max-height: 450px) {
-
-
   .overlay {
     overflow-y: auto;
   }
