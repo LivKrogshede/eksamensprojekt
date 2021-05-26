@@ -351,6 +351,11 @@ ul.breadcrumb li a:hover {
   width: 300px;
   height: 600px;
 }
+.fedtfilterinfo {
+  margin-left: 25%;
+  height: 500px;
+  width: 400px;
+}
 @media screen and (max-width: 992px) {
   .openbtn {
     display: block;
@@ -640,6 +645,11 @@ ul.breadcrumb li a:hover {
     height: 60px;
     width: 200px;
     cursor: pointer;
+  }
+  .fedtfilterinfo {
+    margin-left: 15%;
+    height: 400px;
+    width: 300px;
   }
 }
 @media screen and (max-height: 450px) {
