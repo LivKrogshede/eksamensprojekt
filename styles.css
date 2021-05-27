@@ -297,7 +297,7 @@ ul.breadcrumb li a:hover {
   position: relative;
   margin-left: 38%;
 }
-.slideshowrengoring .mySlidesRen img {
+.slideshowrengoring .mySlidesRengoring img {
   width: 300px;
   height: 400px;
 }
@@ -305,7 +305,7 @@ ul.breadcrumb li a:hover {
 .next {
   font-size: 11px;
 }
-.mySlidesRen {
+.mySlidesRengoring {
   display: none;
 }
 .prev,
@@ -447,7 +447,7 @@ ul.breadcrumb li a:hover {
     margin-left: 20%;
     margin-right: 20%;
   }
-  .slideshowrengoring .mySlidesRen img {
+  .slideshowrengoring .mySlidesRengoring img {
     width: 200px;
     height: 300px;
   }
