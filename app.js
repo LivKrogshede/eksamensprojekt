@@ -4,46 +4,57 @@ let container;
 let camera;
 let renderer;
 let scene;
-let house;
 
-function init(){
-    contaioner = document.querySelector('.scene');
+function init() {
+  container = document.querySelector(".scene");
 
-    //Create scene
-    scene = new THREE.Scene();
+  //Create scene
+  scene = new THREE.Scene();
 
-    const fov = 35;
-    const aspect = container.clientWidth / container.clientHeight;
-    const near = 0.1;
-    const far = 500;
-        //Camera setup
-    camera = new THREE.PerspectiveCamera(fov,aspect,near,far);
-    camera.position.set(-8, 3, 25);
+  const fov = 35;
+  const aspect = container.clientWidth / container.clientHeight;
+  const near = 0.1;
+  const far = 1000;
 
-    const ambient = new THREE.AmbientLight(0x404040,3);
-    scene.add(ambient);
+  //Camera setup
+  camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+  camera.position.set(0, 5, 30);
 
-        //Renderer
-        renderer = new THREE.WebGlRenderer({antialias:true, alpha: true});
-        renderer.setSize(container.clientWidth, container.clientHeight);
-        renderer.setPixelRatio(window.devicePixelRatio);
+  const ambient = new THREE.AmbientLight(0x404040, 2);
+  scene.add(ambient);
 
-        container.appendChild(renderer.domElement);
+  const light = new THREE.DirectionalLight(0xffffff, 2);
+  light.position.set(50, 50, 100);
+  scene.add(light);
+  //Renderer
+  renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+  renderer.setSize(container.clientWidth, container.clientHeight);
+  renderer.setPixelRatio(window.devicePixelRatio);
 
-    //Load Model
-    let loader = new THREE.GLTFLoader();
-    Loader.load('./3d/scene.gltf', function(gltf){
-        scene.add(gltf.scene);
-        model = gltf.scene.children[0];
-        animate();
-    });
+  container.appendChild(renderer.domElement);
+
+  //Load Model
+  let loader = new THREE.GLTFLoader();
+  loader.load("./scene.gltf", function(gltf) {
+    scene.add(gltf.scene);
+    scene = gltf.scene.children[0];
+    animate();
+  });
 }
 
-function animate(){
-    requestAnimationFrame(animate);
-    model.rotation.z +=0.005;
-    renderer.render(scene, camera);
+function animate() {
+  requestAnimationFrame(animate);
+  scene.rotation.z += 0.005;
+  renderer.render(scene, camera);
 }
 
 init();
 
+function onWindowResize() {
+  camera.aspect = container.clientWidth / container.clientHeight;
+  camera.updateProjectionMatrix();
+
+  renderer.setSize(container.clientWidth, container.clientHeight);
+}
+
+window.addEventListener("resize", onWindowResize);
